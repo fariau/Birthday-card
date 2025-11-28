@@ -203,6 +203,18 @@ h2 {
   z-index: 3;
 }
 
+.footer {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  text-shadow: 0 0 5px rgba(0,0,0,0.5);
+  z-index: 5;
+}
+
 /* Animations */
 @keyframes popIn {
   from {
@@ -335,4 +347,5 @@ h2 {
   h2 {
     font-size: 18px;
   }
+
 }
